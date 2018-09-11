@@ -1,0 +1,40 @@
+// Carousel
+
+.carousel-control-prev .fal,
+.carousel-control-next .fal {
+  background: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 3rem;
+  font-size: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev {
+  left: -3%;
+}
+
+.carousel-control-next {
+  right: -3%;
+}
+
+.hero .container-fluid {
+  position: relative;
+}
+
+.carousel {
+  z-index: 1;
+  position: relative;
+  background: #fff;
+}
+
+.carousel-detail {
+  width: 550px;
+  height: 400px;
+  display: block;
+  background: #ffefd2;
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+}
